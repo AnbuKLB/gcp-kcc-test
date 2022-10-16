@@ -6,3 +6,8 @@ metadata:
 spec:
   versioning:
     enabled: true
+  uniformBucketLevelAccess: true
+  publicAccessPrevention: "true"
+  retentionPolicy:
+    isLocked: true
+    retentionPeriod: 3155759000
