@@ -1,4 +1,7 @@
 apiVersion: storage.cnrm.cloud.google.com/v1beta1
 kind: StorageBucket
 metadata:
-  name: gke-anthos-storage
+  name: gke-anthos-storages
+  namespace: abcd
+spec:
+  versioning: true
