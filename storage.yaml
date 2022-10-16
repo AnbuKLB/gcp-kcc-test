@@ -4,4 +4,5 @@ metadata:
   name: gke-anthos-storages
   namespace: abcd
 spec:
-  versioning: true
+  versioning:
+    enabled: true
