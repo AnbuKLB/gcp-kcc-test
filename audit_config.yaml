@@ -1,0 +1,9 @@
+apiVersion: iam.cnrm.cloud.google.com/v1beta1
+kind: IAMAuditConfig
+metadata:
+  name: iamauditconfig-storage
+spec:
+  service: StorageBucket
+  auditLogConfigs:
+    - logType: DATA_WRITE
+    - logType: DATA_READ
