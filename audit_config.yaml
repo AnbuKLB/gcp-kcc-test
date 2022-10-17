@@ -4,10 +4,10 @@ metadata:
   name: iamauditconfig-storage
   namespace: abcd
 spec:
-  service: StorageBucket
+  service: storage.googleapis.com
   auditLogConfigs:
     - logType: DATA_WRITE
     - logType: DATA_READ
   resourceRef:
     kind: Project
-    name: "kcc-master"
+    external: projects/kcc-master-365107"
