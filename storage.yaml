@@ -8,6 +8,9 @@ spec:
     enabled: true
   uniformBucketLevelAccess: true
   publicAccessPrevention: "enforced"
+  encryption:
+    kmsKeyRef:
+      external: "projects/kcc-master-365107/locations/us/keyRings/test1/cryptoKeys/cmk1" 
   #retentionPolicy:
   #  isLocked: true
   #  retentionPeriod: 3155759000
