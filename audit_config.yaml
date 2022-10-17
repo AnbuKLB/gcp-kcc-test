@@ -2,6 +2,7 @@ apiVersion: iam.cnrm.cloud.google.com/v1beta1
 kind: IAMAuditConfig
 metadata:
   name: iamauditconfig-storage
+  namespace: abcd
 spec:
   service: StorageBucket
   auditLogConfigs:
