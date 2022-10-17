@@ -10,4 +10,4 @@ spec:
     - logType: DATA_READ
   resourceRef:
     kind: Project
-    external: "kcc-master-365107"
+    name: "kcc-master"
